@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'DanaPro';
+    src: url(../fonts/ttf/Dana-Black.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Mahoor';
+    src: url(../fonts/ttf/Mahoor[CNTR\,wght]-FD.ttf) format(truetype);
+}
+::selection{
+    background-color: none;
+    color: grey;
+}
+svg{
+    width: 30px;
+    height: 30px;
+}
+body{
+    background-color: rgb(26, 25, 25);
+    font-family: 'DanaPro';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 0 0 10px #7f8282;
+}
+.souvenir-box{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mahoor';
+}
+.souvenir-box__item{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.souvenir-box__information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.souvenir-box__title{
+    font-size: 32px;
+    text-shadow: 4px 2px 8px #FFFFFF;
+    font-family: 'DanaPro';
+}
+.souvenir-box__text{
+    width: 35rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+.souvenir-img{
+    width: 40rem;
+    border-radius: 24px;
+    transition: all ease 500ms;
+}
+.souvenir-img:hover{
+    scale: 1.05;
+    transition: all ease 500ms;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'DanaPro';
+    src: url(../fonts/ttf/Dana-Black.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'LaleZar';
+    src: url(../fonts/ttf/Lalezar-Font/TTF/Lalezar-Regular.ttf) format(truetype);
+}
+::selection{
+    background-color: none;
+    color: grey;
+}
+svg{
+    width: 30px;
+    height: 30px;
+}
+body{
+    background-image: url(../home-page/img/bg-system137\ .png);
+    font-family: 'DanaPro';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    color: white;
+}
+.system-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.system-box__title{
+    font-family: 'Lalezar';
+    font-weight: 600;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.system-box__text{
+    width: 28rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.system-box__link{
+    text-decoration: none;
+    color: #11a3a3;
+    padding: 1.5rem 6rem;
+    border-radius: 22px;
+    border: 3px solid whitesmoke;
+    transition: all 0.5s ease-in;
+    font-size: 18px;
+}
+.system-box__link:hover{
+    transition: all 0.5s ease-in;
+    box-shadow: inset 9rem 0rem 0rem 0rem #11a3a3, inset -9rem 0rem 0rem 0rem #11a3a3;
+    transform: scale(1.05);
+    color: whitesmoke;
+}
+span{
+    font-weight: 400;
+    color: rgb(16, 74, 198);
+}

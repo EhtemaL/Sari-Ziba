@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'DanaPro';
+    src: url(../fonts/ttf/Dana-Black.ttf) format(truetype);
+}
+::selection{
+    background-color: none;
+    color: grey;
+}
+svg{
+    width: 30px;
+    height: 30px;
+}
+body{
+    background-image: url(../home-page/img/bg-history_LE_upscale_balanced_x4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DanaPro';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+.history-box{
+    display: flex;
+    width: 90%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.history-title{
+    font-size: 55px;
+    padding-top: 6rem;
+}
+.history-text{
+    width: 36rem;
+    text-align: center;
+    padding-top: 6rem;
+    margin-right: 17rem;
+    transition: ease 0.7s;
+}
+.history-text:hover{
+    color: rgb(211, 211, 211);
+    text-shadow: 0 0 10px rgb(97, 97, 100), 0 0 20px rgb(106, 103, 103), 0 0 30px rgb(133, 129, 129);
+    transition: ease 0.7s;
+    cursor: pointer;
+}

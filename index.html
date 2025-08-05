@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ساری | Sari</title>
+    <link rel="icon" href="/home-page/img/Sari_Ziba_prev_ui.png">
+    <link rel="stylesheet" href="home-page.css">
+    <link rel="stylesheet" href="/home-page/swiper/swiper-bundle.min.css">
+    <script>
+// گرفتن بازدید کل و امروز
+//   fetch('counter.php')
+//     .then(res => res.json())
+//     .then(data => {
+//       document.getElementById('total-visits').textContent = data.total;
+//       document.getElementById('today-visits').textContent = data.today;
+//     });
+
+//   // گرفتن کاربران آنلاین
+//   fetch('online.php')
+//     .then(res => res.text())
+//     .then(data => {
+//       document.getElementById('online-users').textContent = data;
+//     });
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <img src="/home-page/img/Sari_Ziba_prev_ui.png" alt="#" class="nav-logo">
+        <ul class="nav-lists">
+            <li class="nav-list"><a href="#" class="nav-list__link" id="nav-list__firstchild">صفحه اصلی</a></li>
+            <li class="nav-list">
+                <a href="#" class="nav-list__link">
+                ساری, شهر سبز
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="nav-list__svg">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+                  </svg>                  
+                </a>
+
+                <ul class="nav-dropdown__lists">
+                    <li class="nav-dropdown__list">
+                        <a href="/sari-history/sari-history.html" class="nav-dropdown__link">
+                        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-dropdown__svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.07868 5.06891C8.87402 1.27893 15.0437 1.31923 18.8622 5.13778C22.6824 8.95797 22.7211 15.1313 18.9262 18.9262C15.1312 22.7211 8.95793 22.6824 5.13774 18.8622C2.87389 16.5984 1.93904 13.5099 2.34047 10.5812C2.39672 10.1708 2.775 9.88377 3.18537 9.94002C3.59575 9.99627 3.88282 10.3745 3.82658 10.7849C3.4866 13.2652 4.27782 15.881 6.1984 17.8016C9.44288 21.0461 14.6664 21.0646 17.8655 17.8655C21.0646 14.6664 21.046 9.44292 17.8015 6.19844C14.5587 2.95561 9.33889 2.93539 6.13935 6.12957L6.88705 6.13333C7.30126 6.13541 7.63535 6.47288 7.63327 6.88709C7.63119 7.3013 7.29372 7.63539 6.87951 7.63331L4.33396 7.62052C3.92269 7.61845 3.58981 7.28556 3.58774 6.8743L3.57495 4.32874C3.57286 3.91454 3.90696 3.57707 4.32117 3.57498C4.73538 3.5729 5.07285 3.907 5.07493 4.32121L5.07868 5.06891Z" fill="#ffffff"/>
+                            <path opacity="0.5" d="M12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V11.6893L15.0303 13.9697C15.3232 14.2626 15.3232 14.7374 15.0303 15.0303C14.7374 15.3232 14.2626 15.3232 13.9697 15.0303L11.5429 12.6036C11.3554 12.416 11.25 12.1617 11.25 11.8964V8C11.25 7.58579 11.5858 7.25 12 7.25Z" fill="#ffffff"/>
+                            </svg>
+                            تاریخچه
+                    </a>
+                    </li>
+                    <li class="nav-dropdown__list">
+                        <a href="/souvenir-sari/souvenir-sari.html" class="nav-dropdown__link">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-dropdown__svg">
+                                <path d="M22 12H2" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12 2V22" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M13 12C13 14.2091 14.7909 16 17 16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M11 12C11 14.2091 9.20914 16 7 16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12 10.0352C12 8.54529 13.014 7.24659 14.4594 6.88524C16.0631 6.48431 17.5158 7.93697 17.1148 9.5407C16.7535 10.9861 15.4548 12.0001 13.9649 12.0001H12V10.0352Z" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M12.0001 10.0352C12.0001 8.54529 10.9861 7.24659 9.5407 6.88524C7.93698 6.48431 6.48431 7.93697 6.88524 9.5407C7.24659 10.9861 8.54529 12.0001 10.0352 12.0001H12.0001V10.0352Z" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C21.5093 4.43821 21.8356 5.80655 21.9449 8" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            سوغات ساری
+                        </a>
+                    </li>
+                    <li class="nav-dropdown__list">
+                        <a href="" class="nav-dropdown__link">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-dropdown__svg">
+                                <circle cx="12" cy="13" r="3" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M3.0001 12.9999C3.0001 10.191 2.99995 8.78673 3.67407 7.77783C3.96591 7.34107 4.34091 6.96607 4.77767 6.67423C5.78656 6.00011 7.19103 6.00011 9.99995 6.00011H14C16.8089 6.00011 18.2133 6.00011 19.2222 6.67423C19.659 6.96607 20.034 7.34107 20.3258 7.77783C21 8.78673 21.0001 10.191 21.0001 12.9999C21.0001 15.8088 21.0001 17.2133 20.326 18.2222C20.0341 18.6589 19.6591 19.0339 19.2224 19.3258C18.2135 19.9999 16.809 19.9999 14.0001 19.9999H10.0001C7.19117 19.9999 5.78671 19.9999 4.77782 19.3258C4.34106 19.0339 3.96605 18.6589 3.67422 18.2222C3.44239 17.8752 3.29028 17.4815 3.19049 16.9999" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M18 10H17.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M14.5 3.5H9.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                گردشگری
+                        </a>
+                    </li>
+                    <li class="nav-dropdown__list">
+                        <a href="" class="nav-dropdown__link">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-dropdown__svg">
+                                <circle cx="12" cy="12" r="3" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M14.5 7L16 5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M19 7L20 6" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12 5L11 4" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M10.5 7L9.13397 7.36603" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M7 5L6 4" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M6.79245 9.14385L6.20722 7.85641" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12.5 22L12.5343 22.7492C12.811 22.7365 13.0582 22.5724 13.1772 22.3222C13.2963 22.0721 13.2677 21.7768 13.103 21.554L12.5 22ZM12.944 19.6276L13.3899 20.2306L12.944 19.6276ZM19.4787 14.7949L19.0327 14.1919L19.4787 14.7949ZM14.6191 18.8552L15.2221 18.4092L15.2221 18.4092L14.6191 18.8552ZM15.3194 16.0052L15.7654 16.6083L15.3194 16.0052ZM18.2495 16.1704L18.8525 15.7244L18.8525 15.7244L18.2495 16.1704ZM21.6265 14.7168L21.14 15.2876C21.3346 15.4534 21.6002 15.5087 21.8447 15.4343C22.0893 15.36 22.2792 15.1662 22.3484 14.9201L21.6265 14.7168ZM18.584 16.6226L17.9809 17.0686C18.1107 17.2441 18.3106 17.3544 18.5283 17.3706C18.746 17.3868 18.9599 17.3073 19.1143 17.153L18.584 16.6226ZM18.6854 16.5212L19.2157 17.0515C19.3871 16.8801 19.4651 16.6365 19.4251 16.3974L18.6854 16.5212ZM14.6191 19.291L14.3938 20.0064C14.6605 20.0904 14.9517 20.019 15.1494 19.8213L14.6191 19.291ZM14.8044 19.1057L15.3347 19.6361C15.5973 19.3735 15.6282 18.9583 15.4074 18.6598L14.8044 19.1057ZM3.021 17.913C3.24911 18.2588 3.71432 18.3541 4.06006 18.126C4.4058 17.8979 4.50116 17.4327 4.27304 17.087L3.021 17.913ZM7.9636 20.3254C7.59103 20.1444 7.14227 20.2997 6.96127 20.6723C6.78027 21.0448 6.93557 21.4936 7.30815 21.6746L7.9636 20.3254ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM12 2.75C17.1086 2.75 21.25 6.89137 21.25 12H22.75C22.75 6.06294 17.9371 1.25 12 1.25V2.75ZM13.103 21.554C12.8699 21.2389 12.9028 20.5909 13.3899 20.2306L12.498 19.0246C11.3811 19.8506 11.1449 21.429 11.897 22.446L13.103 21.554ZM15.2221 18.4092C14.9266 18.0097 14.9862 17.1845 15.7654 16.6083L14.8735 15.4022C13.6476 16.3088 13.0801 18.0355 14.0161 19.3011L15.2221 18.4092ZM15.7654 16.6083C16.5445 16.0321 17.351 16.2168 17.6465 16.6163L18.8525 15.7244C17.9165 14.4588 16.0993 14.4957 14.8735 15.4022L15.7654 16.6083ZM19.9246 15.398C20.4213 15.0306 20.9259 15.105 21.14 15.2876L22.1131 14.146C21.2462 13.4071 19.9508 13.5129 19.0327 14.1919L19.9246 15.398ZM21.25 12C21.25 12.8723 21.1295 13.7151 20.9046 14.5135L22.3484 14.9201C22.6102 13.9907 22.75 13.0111 22.75 12H21.25ZM12.4657 21.2508C12.332 21.2569 12.2017 21.25 12 21.25V22.75C12.1103 22.75 12.3595 22.7572 12.5343 22.7492L12.4657 21.2508ZM17.6465 16.6163L17.9809 17.0686L19.187 16.1767L18.8525 15.7244L17.6465 16.6163ZM19.4251 16.3974C19.3792 16.1229 19.5124 15.7028 19.9246 15.398L19.0327 14.1919C18.2419 14.7768 17.7921 15.7276 17.9457 16.645L19.4251 16.3974ZM19.1143 17.153L19.2157 17.0515L18.1551 15.9909L18.0536 16.0923L19.1143 17.153ZM13.3899 20.2306C13.747 19.9665 14.1352 19.9249 14.3938 20.0064L14.8444 18.5756C14.0774 18.3341 13.1961 18.5083 12.498 19.0246L13.3899 20.2306ZM14.0161 19.3011L14.2014 19.5517L15.4074 18.6598L15.2221 18.4092L14.0161 19.3011ZM15.1494 19.8213L15.3347 19.6361L14.274 18.5754L14.0888 18.7607L15.1494 19.8213ZM4.27304 17.087C3.31036 15.6279 2.75 13.8805 2.75 12H1.25C1.25 14.1831 1.90156 16.2163 3.021 17.913L4.27304 17.087ZM12 21.25C10.5513 21.25 9.18246 20.9175 7.9636 20.3254L7.30815 21.6746C8.72681 22.3638 10.3194 22.75 12 22.75V21.25Z" fill="#ffffff"/>
+                                <path d="M2 13C2 13 4.20085 15 6 15C7.21199 15 8.60628 14.0924 9.38725 13.5" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M16 15.5C15.5 15 14.4713 14.6389 14 14.2236" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M16.6497 8.9766L16.7161 10.3893" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M20.6777 10.085L18.9996 11.5629" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M5.66477 12.6412L6.5 11.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M3.68293 10.3498L3.60427 8.93781" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                غذا های سنتی ساری
+                        </a>
+                    </li>
+                    <li class="nav-dropdown__list">
+                        <a href="" class="nav-dropdown__link">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-dropdown__svg">
+                                <path d="M22 22L2 22" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M17 22V6C17 4.11438 17 3.17157 16.4142 2.58579C15.8284 2 14.8856 2 13 2H11C9.11438 2 8.17157 2 7.58579 2.58579C7 3.17157 7 4.11438 7 6V22" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M20.25 11.5C20.25 11.9142 20.5858 12.25 21 12.25C21.4142 12.25 21.75 11.9142 21.75 11.5H20.25ZM20.1111 8.33706L19.6945 8.96066L19.6945 8.96066L20.1111 8.33706ZM20.6629 8.88886L20.0393 9.30554L20.0393 9.30554L20.6629 8.88886ZM21.75 15.5C21.75 15.0858 21.4142 14.75 21 14.75C20.5858 14.75 20.25 15.0858 20.25 15.5H21.75ZM17.5 8.75C18.2178 8.75 18.6998 8.75091 19.0672 8.78828C19.422 8.82438 19.586 8.8882 19.6945 8.96066L20.5278 7.71346C20.1318 7.44886 19.6925 7.34415 19.219 7.29598C18.758 7.24909 18.1866 7.25 17.5 7.25V8.75ZM21.75 11.5C21.75 10.8134 21.7509 10.242 21.704 9.78102C21.6559 9.30755 21.5511 8.86818 21.2865 8.47218L20.0393 9.30554C20.1118 9.41399 20.1756 9.57796 20.2117 9.93283C20.2491 10.3002 20.25 10.7822 20.25 11.5H21.75ZM19.6945 8.96066C19.831 9.05186 19.9481 9.16905 20.0393 9.30554L21.2865 8.47218C21.0859 8.17191 20.8281 7.91409 20.5278 7.71346L19.6945 8.96066ZM20.25 15.5V22H21.75V15.5H20.25Z" fill="#ffffff"/>
+                                <path d="M3.88886 8.33706L4.30554 8.96066L4.30554 8.96066L3.88886 8.33706ZM3.33706 8.88886L3.96066 9.30554L3.96066 9.30554L3.33706 8.88886ZM3.75 20C3.75 19.5858 3.41421 19.25 3 19.25C2.58579 19.25 2.25 19.5858 2.25 20H3.75ZM2.25 16C2.25 16.4142 2.58579 16.75 3 16.75C3.41421 16.75 3.75 16.4142 3.75 16H2.25ZM6.5 7.25C5.81338 7.25 5.24196 7.24909 4.78102 7.29598C4.30755 7.34415 3.86818 7.44886 3.47218 7.71346L4.30554 8.96066C4.41399 8.8882 4.57796 8.82438 4.93283 8.78828C5.30023 8.75091 5.78216 8.75 6.5 8.75V7.25ZM3.75 11.5C3.75 10.7822 3.75091 10.3002 3.78828 9.93283C3.82438 9.57796 3.8882 9.41399 3.96066 9.30554L2.71346 8.47218C2.44886 8.86818 2.34415 9.30755 2.29598 9.78102C2.24909 10.242 2.25 10.8134 2.25 11.5H3.75ZM3.47218 7.71346C3.17191 7.91409 2.91409 8.17191 2.71346 8.47218L3.96066 9.30554C4.05186 9.16905 4.16905 9.05186 4.30554 8.96066L3.47218 7.71346ZM2.25 20V22H3.75V20H2.25ZM2.25 11.5V16H3.75V11.5H2.25Z" fill="#ffffff"/>
+                                <path d="M12 22V19" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M10 5H14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M10 14H10.5M14 14H12.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M14 8H13.5M10 8H11.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M10 11H14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                اماکن مذهبی
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-list"><a href="/system 137/system-137.html" class="nav-list__link">سامانه ۱۳۷</a></li>
+            <li class="nav-list"><a href="https://balad.ir/maps/sari#12.05/36.56112/53.09365" class="nav-list__link">نقشه شهر</a></li>
+            <li class="nav-list"><a href="/sari-history/sari-history.html" class="nav-list__link">درباره ی ساری</a></li>
+        </ul>
+        <div class="searchbox">
+          <input type="text" class="searchbox-input" placeholder="جستجو کنید...">
+          <button class="searchbox-submit">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="searchbox-submit__svg">
+                <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+              </svg>              
+          </button>
+      </div>
+    </nav>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="header-top__box reveal-on-scroll">
+              <div class="header-top__title">"<span class="header-title__span">ساری</span>" پایتخت مازندران</div>
+              <p class="header-top__text">ساری، شهری آرام در دل مازندران، با طبیعتی سرسبز، کوه‌هایی مه‌آلود و سواحل آرام دریای خزر، یکی از زیباترین مقاصد شمال ایران به‌شمار می‌رود. این شهر با قدمتی تاریخی، فرهنگی غنی، مردمانی خون‌گرم و جاذبه‌هایی چشم‌نواز مانند باداب سورت، جنگل‌های داربکلا و بازارهای سنتی‌اش، تجربه‌ای متفاوت از سفر به شمال را برای هر مسافر رقم می‌زند. ساری نه‌تنها پایتخت سیاسی مازندران است، بلکه قلب تپنده‌ی گردشگری، فرهنگ و طبیعت این استان هم به‌شمار می‌آید.</p>
+            </div>
+            <div class="swiper mySwiper reveal-on-scroll" dir="ltr">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="home-page/img/Header-img1.png" />
+                    <div class="slide-caption">میدان ساعت</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="home-page/img/Header-img3.png" />
+                    <div class="slide-caption">دریا فرح آباد</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="home-page/img/Header-img4.png" />
+                    <div class="slide-caption">چشمه باداب سورت</div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-slide__img" src="home-page/img/Header-img5.png" />
+                    <div class="slide-caption">سد سلیمان تنگه</div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </header>
+    
+    <main class="main">
+      <div class="main-top">
+        <div class="main-top__stats reveal-on-scroll">
+            <h1 class="margin-top__title">آمـــــار شــــهــــر ســـــاری</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="309820">۰</span>
+                    <div class="stat-label">جمعیت شهر</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="101932">۰</span>
+                    <div class="stat-label">تعداد خانوار</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="572">۰</span>
+                    <div class="stat-label">تعداد روستا ها</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-top__buttons">
+            <div class="buttons-lists reveal-on-scroll">
+                <div class="main-button__list">
+                    <a href="/system 137/system-137.html" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 48.9 48.9 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97ZM6.75 8.25a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H7.5Z" clip-rule="evenodd" />
+                          </svg>                          
+                          <p class="main-button__text">سامانه ارتباط مردمی (۱۳۷)</p>
+                    </a>
+                </div>
+                <div class="main-button__list">
+                    <a href="" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                          </svg>                                              
+                          <p class="main-button__text">ارسال پیشنهادات</p>
+                    </a>
+                </div>
+                <div class="main-button__list">
+                    <a href="https://balad.ir/maps/sari#12.05/36.56112/53.09365" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                          </svg>                                             
+                          <p class="main-button__text">نقشه هوشمند شهر</p>
+                    </a>
+                </div>
+                <div class="main-button__list">
+                    <a href="https://app.e-saricity.ir/" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path d="M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z" />
+                            <path fill-rule="evenodd" d="M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75h-6.75ZM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875V4.125Z" clip-rule="evenodd" />
+                          </svg>                          
+                          <p class="main-button__text">برنامه ساری من</p>
+                    </a>
+                </div>
+                <div class="main-button__list">
+                    <a href="https://khabarfarsi.com/city/790" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 0 0 3 3h15a3 3 0 0 1-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125ZM12 9.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H12Zm-.75-2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75ZM6 12.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5H6Zm-.75 3.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75ZM6 6.75a.75.75 0 0 0-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-3A.75.75 0 0 0 9 6.75H6Z" clip-rule="evenodd" />
+                            <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 0 1-3 0V6.75Z" />
+                          </svg>                                               
+                          <p class="main-button__text">اخبار ساری</p>
+                    </a>
+                </div>
+                <div class="main-button__list">
+                    <a href="https://www.accuweather.com/fa/ir/sari/210584/daily-weather-forecast/210584" class="main-button__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="main-button__svg">
+                            <path fill-rule="evenodd" d="M4.5 9.75a6 6 0 0 1 11.573-2.226 3.75 3.75 0 0 1 4.133 4.303A4.5 4.5 0 0 1 18 20.25H6.75a5.25 5.25 0 0 1-2.23-10.004 6.072 6.072 0 0 1-.02-.496Z" clip-rule="evenodd" />
+                          </svg>                                         
+                          <p class="main-button__text">آب و هوای شهر</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="main-bottom">
+        <h2 class="main-bottom__title">شــــــهــــــردار ســــــاری</h2>
+        <div class="main-bottom__box">
+            <div class="img-box">
+                <img src="home-page/img/Mayor.png" alt="" class="main-bottom__img">
+            </div>
+            <div class="information-box">
+                <p class="main-bottom__info">سید حسن احمدی, عضو سابق شورای اسلامی شهر ساری و با سابقه فعالیت در این شورا به عنوان چهل و پنجمین شهردار ساری معرفی شد. ایشان با رای اعضای شورای شهر ساری برگزیده شد. احمدی بر اهمیت و اعتماد سازی میان مردم و شهرداری و کاهش هزینه و توسعه ها و توسعه سرمایه گذاری برای بهبود شرایط شهر ساری تاکید دارد.</p>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <div class="icons-box">
+            <div class="instagram-box">
+                <a href="" class="instagram-box__link platform-box">
+                    <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 32 32" class="instagram-svg__footer" xmlns="http://www.w3.org/2000/svg"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/></svg>
+                </a>
+            </div>
+            <div class="telegram-box">
+                <a href="" class="telegram-box__link  platform-box">
+                    <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 32 32" class="telegram-svg__footer" xmlns="http://www.w3.org/2000/svg"><path d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"/></svg>
+                </a>
+            </div>
+            <div class="aparat-box">
+                <a href=""class="aparat-box__link  platform-box">
+                    <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 24 24" role="img" class="aparat-svg__footer" xmlns="http://www.w3.org/2000/svg"><path d="M12.001 1.594c-9.27-.003-13.913 11.203-7.36 17.758a10.403 10.403 0 0 0 17.76-7.355c0-5.744-4.655-10.401-10.4-10.403zM6.11 6.783c.501-2.598 3.893-3.294 5.376-1.103 1.483 2.19-.422 5.082-3.02 4.582A2.97 2.97 0 0 1 6.11 6.783zm4.322 8.988c-.504 2.597-3.897 3.288-5.377 1.096-1.48-2.192.427-5.08 3.025-4.579a2.97 2.97 0 0 1 2.352 3.483zm1.26-2.405c-1.152-.223-1.462-1.727-.491-2.387.97-.66 2.256.18 2.04 1.334a1.32 1.32 0 0 1-1.548 1.053zm6.198 3.838c-.501 2.598-3.893 3.293-5.376 1.103-1.484-2.191.421-5.082 3.02-4.583a2.97 2.97 0 0 1 2.356 3.48zm-1.967-5.502c-2.598-.501-3.293-3.896-1.102-5.38 2.19-1.483 5.081.422 4.582 3.02a2.97 2.97 0 0 1-3.48 2.36zM13.59 23.264l2.264.61a3.715 3.715 0 0 0 4.543-2.636l.64-2.402a11.383 11.383 0 0 1-7.448 4.428zm7.643-19.665L18.87 2.97a11.376 11.376 0 0 1 4.354 7.62l.65-2.459A3.715 3.715 0 0 0 21.231 3.6zM.672 13.809l-.541 2.04a3.715 3.715 0 0 0 2.636 4.543l2.107.562a11.38 11.38 0 0 1-4.203-7.145zM10.357.702 8.15.126a3.715 3.715 0 0 0-4.547 2.637l-.551 2.082A11.376 11.376 0 0 1 10.358.702z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="center-box__footer">
+            <div class="logo-box__footer">
+                <img src="home-page/img/Sari_Ziba_prev_ui.png" alt="#" class="logo-img__footer">
+            </div>
+            <div class="copyright-box__footer">
+                <p class="copyright-text__footer">
+                    © تمام حقوق مادی و معنوی این سایت مربوط به
+                <span class="footer-span">شهرداری ساری</span>
+                می باشد.
+                </p>
+            </div>
+        </div>
+        <div class="stats-box">
+            <p>بازدید کل: <span id="total-visits">در حال بارگذاری...</span></p>
+            <p>بازدید امروز: <span id="today-visits">در حال بارگذاری...</span></p>
+            <p>افراد انلاین: <span id="online-users">در حال بارگذاری...</span></p>
+        </div>
+    </footer>
+
+    <script src="home-page/swiper/swiper-bundle.min.js"></script>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    const counters = document.querySelectorAll('.stat-number');
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            let count = 0;
+            const duration = 3000;  
+            const increment = target / (duration / 50);
+
+            const updateCounter = () => {
+                if (count < target) {
+                    count += increment;
+                    if (count > target) count = target;
+                    counter.innerText = Math.floor(count).toLocaleString('fa-IR');
+                    counter.classList.add('counting');
+                    setTimeout(updateCounter, 50);
+                } else {
+                    counter.innerText = target.toLocaleString('fa-IR');
+                }
+            };
+            updateCounter();
+        });
+    }, 100);
+});
+    </script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    });
+    document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        observer.observe(el);
+    });
+});
+
+document.querySelectorAll('.main-bottom__info').forEach(box => {
+  box.addEventListener('mousemove', e => {
+    const rect = box.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    box.style.setProperty('--x', x + 'px');
+    box.style.setProperty('--y', y + 'px');
+  });
+});
+document.querySelectorAll('.main-bottom__info').forEach(box => {
+  box.addEventListener('mousemove', e => {
+    const rect = box.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    box.style.setProperty('--x', x + 'px');
+    box.style.setProperty('--y', y + 'px');
+    box.classList.add('has-glow');
+  });
+
+  box.addEventListener('mouseleave', () => {
+    box.classList.remove('has-glow');
+  });
+});
+    </script>
+
+</body>
+</html>
