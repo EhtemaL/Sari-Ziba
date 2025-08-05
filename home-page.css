@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Colak';
-    src: url(../fonts/ttf/Colak.ttf) format(truetype);
+    src: url(/fonts/ttf/Colak.ttf) format(truetype);
 }
 @font-face {
     font-family: 'DanaPro';
-    src: url(../fonts/ttf/Dana-Black.ttf) format(truetype);
+    src: url(/fonts/ttf/Dana-Black.ttf) format(truetype);
 }
 @font-face {
     font-family: 'LaleZar';
-    src: url(../fonts/ttf/Lalezar-Font/TTF/Lalezar-Regular.ttf) format(truetype);
+    src: url(/fonts/ttf/Lalezar-Font/TTF/Lalezar-Regular.ttf) format(truetype);
 }
 @font-face {
     font-family: 'Mahoor';
-    src: url(../fonts/ttf/Mahoor[CNTR\,wght]-FD.ttf) format(truetype);
+    src: url(/fonts/ttf/Mahoor[CNTR\,wght]-FD.ttf) format(truetype);
 }
 ::selection{
     background-color: none;
